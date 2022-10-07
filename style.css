@@ -1,0 +1,89 @@
+.background-image {
+    background-image: url(images/finalbackgroundimage.jpg);
+    background-position: center;
+    height: 110vh;
+}
+
+.container-title{
+    font-weight: bold;
+    text-align: left;
+    font-size: 70px;
+}
+
+.container-properties{
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#stack {
+    padding-top: 25px;
+    min-height: 200px;
+    align-items:center;
+}
+
+.image-fit {
+    max-width: 80%;
+}
+
+.smallbox{
+
+    width: 50em;
+    border: 15px solid beige;
+    background-color:beige;
+    align-self: center;
+    /* padding: 50px; */
+    padding-left: 2px;
+    margin-left: 120px;
+    margin-top: 50px;
+    /* margin: 20px; */
+    position: absolute;
+    top: 100;
+
+}
+
+
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter {
+    color: black;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+#mainimage {
+    padding-top: 25px;
+}
+
+.new-background {
+    background-image: url(images/finalbackgroundimage.jpg);
+    background-position: center;
+    height: 130vh;
+}
+
